@@ -32,7 +32,7 @@ open class ACTextField: UITextField,UITextFieldDelegate {
     public func setAutoCompleteWith(DataSet dataSet:[String]){
         autoCompleteDataSet = dataSet
     }
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         self.delegate = self
     }
